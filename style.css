@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 10px;
+}
+
+#a {
+  transition-duration: 1s;
+}
+
+#a:hover {
+  background-color: red;
+}
+
+#b {
+  transition-duration: 1.5s;
+}
+
+#b:hover {
+  background-color: blue;
+}
+
+#c {
+  transition-duration: 2s;
+}
+
+#c:hover {
+  background-color: yellow
+}
+
+#d {
+  transition-duration: 2.5s;
+}
+
+#d:hover {
+  background-color: aquamarine;
+}
+ 
+#e {
+  transition-duration: 3s;
+}
+
+#e:hover {
+  background-color: black;
+}
+
+#f {
+  transition-duration: 3.5s;
+}
+
+#f:hover {
+  background-color: gray;
+}
+
+#g {
+  transition-duration: 4s;
+}
+
+#g:hover {
+  background-color: maroon;
+}
